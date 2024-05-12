@@ -81,6 +81,7 @@ type csiCall struct {
 }
 
 type testParameters struct {
+	dataTest            bool
 	disableAttach       bool
 	attachLimit         int
 	registerDriver      bool
